@@ -1,0 +1,32 @@
+.mainBg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 100px;
+  border-radius: 16px;
+}
+.head1 {
+  font-size: 36px;
+  color: #0f172a;
+}
+.head2 {
+  color: #334155;
+}
+.btn {
+  padding: 10px 18px;
+  border: 0px;
+  border-radius: 9px;
+}
+.info {
+  color: #1e293b;
+}
